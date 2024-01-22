@@ -1,0 +1,46 @@
+.general-cont{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #1E1E1E;
+}
+.general-cont h1{
+    color: white;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 10%;
+    font-size: clamp(2.0rem, 5vw, 3rem);
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateX(-50%);
+}
+.name-input-cont{
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 15px; */
+    border-radius: 20px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.name-input-cont input{
+    padding: 10px;
+    height: 40px;
+}
+
+.name-input-cont button{
+    padding: 10px;
+    height: 40px;
+    background-color: #1E1E1E;
+    color: white;
+    border: none;
+}
